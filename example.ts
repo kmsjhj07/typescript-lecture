@@ -21,10 +21,9 @@ const main = async () => {
   const title = 'velit soluta adipisci molestias reiciendis harum';
   const todo = result.find((item) => item.title === title);
   if (todo) {
-    console.log('id:', todo.id);
-  } else {
-    console.log('Todo not found');
+    return console.log('id:', todo.id);
   }
+  console.log('Todo not found');
 };
 
 main();
