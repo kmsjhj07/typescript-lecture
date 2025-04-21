@@ -1,0 +1,26 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "eslint.validate": ["javascript", "typescript"],
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "files.eol": "\n",
+  "background.fullscreen": {
+    "images": [
+      "https://s2.best-wallpaper.net/wallpaper/1920x1200/1612/Three-cute-capybaras_1920x1200.jpg"
+    ],
+    "opacity": 0.1,
+    "size": "bottom",
+    "position": "contain",
+    "interval": 0,
+    "random": false
+  }
+}
